@@ -1,11 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-    
+<title>"Max'Smikkelboekie"</title>
 </head>
-<body>
-    <h1>Max' Smikkelboekie</h1>
-    <p1>voorgerecht</p1>
-    <p2>hoofdgerecht</p2>
-    <p3>nagerecht</p3>
+<body> 
+
+<script> 
+var tijdsduur = prompt ("geef de tijdsduur van bereiding")
+var ingredient_een = prompt ("geef het eerste ingredient");
+var ingredient_twee = prompt ("geef het tweede ingredient");
+var bewerking = prompt ("geef de bewerking van de ingredient");
+
+alert(ingredient_een+" en "+ingredient_twee+" "+bewerking+" voor "+tijdsduur);
+
+</script>
 </body>
 </html>
